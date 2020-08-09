@@ -1,13 +1,13 @@
 import cv2
 
 ########## READ AN IMAGE ##############
-"""
+
 # LOAD AN IMAGE USING 'IMREAD'
 img = cv2.imread("Resources/imgSahar.png")
 # DISPLAY
 cv2.imshow("Sahar_FRIKHA", img)
 cv2.waitKey(0)
-"""
+
 """
 img = cv2.imread('Resources/imgSahar.png', cv2.IMREAD_UNCHANGED)
 #print('Original Dimensions : ', img.shape)
